@@ -8,10 +8,204 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Apps4VA</title>
-    <link href="https://raw.githubusercontent.com/apps4va/education-data-analysis/main/style.css" rel="stylesheet" type="text/css" />
+    <!--<link href="https://raw.githubusercontent.com/apps4va/education-data-analysis/main/style.css" rel="stylesheet" type="text/css" />-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/29c6f2abd3.js" crossorigin="anonymous"></script>
+    
+    <style>
+      
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.cardhead {
+  color: white;
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+.huge {
+  font-size: 300%;
+  color: white;
+  float: left;
+  display: inline-block;
+}
+
+.head2 {
+  color: #69849b; display: inline-block; font-family: 'Libre Baskerville', sans-serif;
+}
+
+.databtn {
+  height: 50px;
+  width: 100px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: rgb(68, 66, 66);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  font-family: 'Manrope', sans-serif;
+}
+
+.databtn:hover {
+  background-color: rgb(136, 132, 132);
+}
+
+
+#padding {padding-top: 10px; padding-right: 30px; padding-bottom: 10px; padding-left: 30px;}
+
+#intro {padding: 50px;}
+
+#divider {padding: 90px;}
+
+#divi {
+  padding: 30px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.second{font-size: 130%; color: white; display: inline;}
+
+.first{font-size: 180%; color: white; display: inline; font-family: 'Manrope', sans-serif;}
+
+.ending{font-size: 10px; color: white;}
+
+h1 {color: #ffffff; display: inline-block; font-family: 'Libre Baskerville', sans-serif;}
+
+p {
+  color: #e9eff3; font-family: 'Manrope', sans-serif;
+}
+
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #0d0c10; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #ebe1e1;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Manrope', sans-serif;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(68, 66, 66);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: rgb(136, 132, 132);
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 550px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: rgb(68, 66, 66);
+/*  display: inline-block; */
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #0d0c10;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.outer {
+	width: 100%;
+	height: auto;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.data h2{
+	font-family: 'Libre Baskerville', sans-serif;
+	font-size: 40px;
+	color: white;
+}
+
+.data img{
+	margin-bottom: 15px;
+}
+
+.invert {
+	filter: invert(100%);
+}
+      
+    </style>
 
   </head>
 
