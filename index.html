@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Apps4VA</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/29c6f2abd3.js" crossorigin="anonymous"></script>
+
+  </head>
+
+
+  <body style = "background-color: #1F2833;">
+    <script src="script.js"></script>
+
+    <table style = "width: 100%; height: 15%; position: absolute; top: 0; bottom: 0; left: 0; right: 0; border: 2px; background-color: #69849b;"
+      <tr>
+        <td style = "width: 25%;">        
+          <div id="main" style = "float: left;">
+            <button class="openbtn" onclick="openNavegationExample()" ondblclick="closeNav()">&#9776</button>
+          </div></td>
+        <td style = "width: 75%; padding: 10px;"><h1 class = "header" style = "float: right">Apps4VA</h1></td>
+      </tr>
+    </table>
+
+      <div id="mySidebar" class="sidebar">
+        <p id='message' style = "font-size: 70%;" align = "center">Double click to close</p>
+        <a href="About_us.html">About</a>
+        <a href="Resources.html">Resources</a>
+        <a href="Data.html">Data</a>
+        <!--<a href="Citations.html">Citations</a>-->
+      </div>
+<!--This is the code for the sidebar. We are trying to make this as user-friendly as possible, so only a few options will be avaliable.-->
+
+<!--      <div id = "divider"></div> -->
+
+
+      <div id = "section1">
+        <table width = "100%">
+          <tr>
+            <td style = "padding-left: 60px; padding-right: 60px; vertical-align:bottom; text-align:center;" width = "30%"><div>
+              <h1 class = "huge"><center>How COVID-19 Revealed Educational Inequalities</center></h1>
+              <h2 class = "head2">Learn more about COVID's effect on school districts in VA.</h2>
+              <button class = "databtn" onclick = "window.location.href = 'Data.html';">Click Here</button></div></td>
+            <td width = "70%"><img src = "cdc-GDokEYnOfnE-unsplash.jpg" height = "700px" width = "800px" alt = "school children" style = "padding-top: 200px;" </td>
+          </tr>
+        </table>
+      </div>
+
+      <div align = "center">
+        <a href ="#section2"><i class="fas fa-chevron-down fa-3x" style = "color: white;"></i></a>
+      </div>
+
+      <div id = "divider"></div>
+
+      <div id = "section2">
+        <table width = "100%">
+          <tr>
+            <td style = "padding-left: 60px; padding-right: 60px; vertical-align:bottom; text-align:center;" width = "30%"><div>
+              <h1 class = "huge"><center>How COVID-19 affected Education</center></h1>
+              <h2 class = "head2">Click to explore various articles on this issue.</h2>
+              <button class = "databtn" onclick = "window.location.href = 'Resources.html';">Click Here</button></td>
+            <td width = "70%"><img src = "Images/javier-trueba-iQPr1XkF5F0-unsplash.jpg" height = "700px" width = "800px" alt = "school children" style = "padding-top: 200px;" </td>
+          </tr>
+        </table>
+      </div>
+
+      <div align = "center">
+        <a href ="#section3"><i class="fas fa-chevron-down fa-3x" style = "color: white;"></i></a>
+      </div>
+
+      <div id = "divider"></div>
+
+      <div id = "section3">
+        <table width = "100%">
+          <tr>
+            <td style = "padding-left: 60px; padding-right: 60px; vertical-align:bottom; text-align:center;" width = "30%"><div>
+              <h1 class = "huge"><center>Our Methodology</center></h1>
+              <h2 class = "head2">Click here to learn more about our thought process.</h2>
+              <button class = "databtn" onclick = "window.location.href = 'Data.html';">Click Here</button></td>
+            <td width = "70%"><img src = "Images/tech-daily-ztYmIQecyH4-unsplash.jpg" height = "700px" width = "800px" alt = "school children" style = "padding-top: 200px;" </td>
+          </tr>
+        </table>
+      </div>
+
+
+      <div id = "divi">
+      </div>
+      <br/>
+      <br/>
+      <hr width = "100%"/>
+      <p class = "ending" align = "center">This webpage was made by Ximena Gomez De Dios and the Apps4VA Block 2 Team</p>
+<!--Text below page to show development and information. Makes UI look nicer.-- -->
+  </body>
+
+</html>
